@@ -18,10 +18,10 @@
         font-size: 16px;
         font-family: Arial;
     }
-    .project
+    .form1
     {
         background-color: #222;
-            width: 320px;
+            width: 350px;
             padding: 20px;
             border-radius: 10px;
             text-align: start;
@@ -50,23 +50,16 @@
             margin-bottom: 5px;
             font-weight: bold;
         }
-    .form1 input{
-            width: 94%;
-            padding: 8px;
-            border: 1px solid #444;
-            border-radius: 5px;
-            background-color: #333;
-            color: #fff;
-            font-size: 14px;
-        }
-    .form1 select
+
+    .form1 select,.form1 input
     {
-        width: 100%;
+        width: 350px;
         padding:8px;
         border-radius: 5px;
-        border: 1px solid #444;
-        background-color: #333;
+        border: 1px solid #6e6e6e;
+        background-color: #000;
         color: #fff;
+        padding-left: 5px;
     }
     
 
@@ -98,7 +91,7 @@
         }
 </style>
 <body>
-    <div class = "project">
+    <div class = "form1">
         <h2> Create project
         </h2>
         <p>Deploy your new project in one-click.</p>
